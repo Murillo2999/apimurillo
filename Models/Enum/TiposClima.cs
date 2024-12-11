@@ -5,8 +5,16 @@ using System.Threading.Tasks;
 
 namespace MurilloApi.Models.Enum
 {
-    public class TiposClima
+    public enum TiposClima
     {
-        
+        Claro,
+        Sol,
+        SolComNuvens,
+
+        Chuva,
+        Tempestade,
+        TempestadeComRaios,
+
+        Neve,
     }
 }

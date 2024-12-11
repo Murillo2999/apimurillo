@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MurilloApi.Models
+namespace MurilloApi.Data
 {
-    public enum Unidades
+    public class DataContext
     {
-        Celsius,
-        Fahrenheint,
-        Kelvin,
-
         
     }
 }
